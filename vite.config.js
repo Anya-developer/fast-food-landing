@@ -24,19 +24,11 @@ export default defineConfig({
       usePolling: true
     }
   },
-
-  // build: {
-  //   rollupOptions: {
-  //     input: {
-  //       main: resolve(__dirname, './src/pages/index.pug'),
-  //     },
-  //   },
-  // },
   
- /* build: {
+  build: {
     outDir: '../dist',
     emptyOutDir: true, // also necessary
-  }*/
+  }
   
 })
 
